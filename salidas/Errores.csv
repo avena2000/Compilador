@@ -1,0 +1,7 @@
+Token Error,Línea,Elemento,Lexema,Descripción
+ERSem1,3,1,JAM98,Variable Indefinida.
+ERSem2,4,3,JAM23,Variable Indefinida.
+ERSem3,5,7,11011,Incompatibilidad de Tipos |CAD|.
+ERSem4,6,1,JAM7,Incompatibilidad de Tipos |CAD|.
+ERSem5,7,5,JAM8,Incompatibilidad de Tipos |REAL|.
+ERSem6,10,3,JAM23,Variable Indefinida.

@@ -1,0 +1,13 @@
+11do11 {
+	|ENT| = 112511 + |ENT| ;
+	Null = "Agustin" ;
+	|REAL| = Null + 114811.5 ;
+} 11while11 ( |ENT| <= 1150011 || |CAD| != 11011 ) ;
+|CAD| = |ENT| ;
+|REAL| = |REAL| - |CAD| ;
+11do11 {
+	|CAD| = "Agustin" ;
+	|REAL| = Null + 114811.5 ;
+} 11while11 ( |ENT| <= 11511 && |ENT| != 112511 ) ;
+ 
+  

@@ -1,0 +1,4 @@
+Token Error,Línea,Elemento,Lexema,Descripción
+ERSem1,1,1,JAM12,Incompatibilidad de Tipos |CAD|
+ERSem2,4,5,|REAL|,';' Faltante en línea o mal insertado.
+ERSem3,4,1,JAM1,Incompatibilidad de Tipos |CAD|

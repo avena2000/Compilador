@@ -1,0 +1,13 @@
+|ENT| JAM12 , JAM21 , JAM32 , JAM42 ; 
+|CAD| JAM22 , JAM32 ;
+|REAL| JAM4 , JAM5 ; 
+JAM12 = JAM21 + JAM32 ; 
+JAM5 = 112511 + 112511.3 ; 
+11do11 {
+  JAM4 = 112511 + 112511.3 - JAM42 ; 
+  JAM22 = "Cadena" ;
+} 11while11 ( JAM12 <= 111211 ) ; 
+
+
+ 
+  

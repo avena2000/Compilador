@@ -1,0 +1,6 @@
+ |CAD| = |ENT| – |CAD|3 |REAL| ; 
+ |REAL| = |ENT| + |REAL| ; 
+ 11do11 { 
+ |CAD| = |REAL| – |REAL| 
+ } 11while11 ( |ENT| <= 18 ) ; 
+  

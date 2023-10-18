@@ -1,0 +1,7 @@
+ |CAD| = |ENT| – |CAD|3 |REAL| ; 
+ |REAL| = |ENT| OPA |REAL| ; 
+ 11do11 { 
+ |CAD| = |REAL| – |REAL| 
+ } 11while11 ( |ENT| OPR |ENT| ) ; 
+  
+  

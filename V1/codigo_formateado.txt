@@ -1,0 +1,9 @@
+ |ENT| JAM13 , JAM14; 
+ |CAD| JAM1 , JAM12 , JAM123 ; 
+ |REAL| JAM321 , JAM32 , JAM3 ; 
+ JAM12 = JAM13 – JAM123 JAM3 ; 
+ JAM321 = JAM13 + JAM32 ; 
+ 11do11 { 
+ JAM1 = JAM32 – JAM3 
+ } 11while11 ( JAM13 <= 18 ) ; 
+  
