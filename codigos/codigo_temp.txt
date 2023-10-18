@@ -1,0 +1,16 @@
+|ENT| JAM1 , JAM2 , JAM3 ;
+|CAD| JAM9 , JAM8 , JAM7 ;
+|REAL| JAM4 , JAM5 , JAM6 ;
+11do11 {
+	JAM2 = 112511 + JAM2 ;
+	JAM98 = "Agustin" ;
+	JAM4 = JAM23 + 114811.5 ;
+} 11while11 ( JAM2 <= 1150011 || JAM7 != 11011 ) ;
+JAM7 = JAM2 ;
+JAM6 = JAM5 - JAM8 ;
+11do11 {
+	JAM7 = "Agustin" ;
+	JAM4 = JAM23 + 114811.5 ;
+} 11while11 ( JAM1 <= 11511 && JAM3 != 112511 ) ;
+ 
+  

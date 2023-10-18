@@ -1,13 +1,14 @@
+|ENT| = |CAD| ;
+|REAL| = |ENT| ;
+|REAL| = Null ;
 11do11 {
-|ENT| = |ENT| OPA |ENT| ;
-Null = |CAD| ;
-|REAL| = Null OPA |REAL| ;
-} 11while11 ( |ENT| OPR |ENT| LOG |CAD| OPR |ENT| ) ;
-|CAD| = |ENT| ;
-|REAL| = |REAL| OPA |CAD| ;
+|ENT|-- ;
+|REAL|++ ;
+|REAL| = |CAD| OPA |REAL| ;
+} 11while11 ( |REAL| OPR |REAL| LOG |ENT| OPR |ENT| ) ;
+|CAD| = |CAD| OPA Null ;
 11do11 {
-|CAD| = |CAD| ;
-|REAL| = Null OPA |REAL| ;
-} 11while11 ( |ENT| OPR |ENT| LOG |ENT| OPR |ENT| ) ;
-
-
+|ENT|-- ;
+|REAL|++ ;
+|REAL| = |CAD| OPA |REAL| ;
+} 11while11 ( |REAL| OPR |REAL| LOG |ENT| OPR |ENT| ) ;

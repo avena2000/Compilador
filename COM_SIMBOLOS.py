@@ -26,8 +26,11 @@ def crear_tabla_simbolos():
             for palabra in palabras:
                 # Si la palabra inicia con "JAM" y no está en el diccionario
                 if palabra.startswith("JAM") and palabra not in lexemas:
-                    tipo_dato = determinar_tipo(linea)
-                    lexemas[palabra] = tipo_dato
+                    if palabra.endswith("++") or palabra.endswith("--"):
+                        break
+                    else:
+                        tipo_dato = determinar_tipo(linea)
+                        lexemas[palabra] = tipo_dato
                 elif palabra.startswith('"') and palabra.endswith('"'):
                     lexemas[palabra] = "|CAD|"
                 # Comprueba si el palabra es un número entero manualmente

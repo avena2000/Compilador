@@ -1,3 +1,10 @@
+#Código creado por el Equipo #11 para la materia de
+#Lenguajes y Autómatas II.
+#Equipo:
+#Javier Agustín Pedraza Sánchez
+#Matías Caamal Carrillo
+#Adrián Vázquez Nieto
+
 import csv
 
 # Inicializamos una lista para almacenar los datos a guardar en el CSV
@@ -94,7 +101,7 @@ for num_linea, linea in enumerate(lineas, start=1):
         triplo.append([linea_triplo,"T1", elemento.rstrip("+-"), "="])
         #Imprimir en el Triplo Operación T1 OPR "y"
         linea_triplo+=1
-        triplo.append([linea_triplo,"T1", 1, "+"])
+        triplo.append([linea_triplo,"T1", 11111, "+"])
         #Imprimir en el Triplo Asignación "Z" = T1
         linea_triplo+=1
         triplo.append([linea_triplo,elemento.rstrip("+-"), "T1", "="])
@@ -104,7 +111,7 @@ for num_linea, linea in enumerate(lineas, start=1):
         triplo.append([linea_triplo,"T1", elemento.rstrip("+-"), "="])
         #Imprimir en el Triplo Operación T1 OPR "y"
         linea_triplo+=1
-        triplo.append([linea_triplo,"T1", 1, "-"])
+        triplo.append([linea_triplo,"T1", 11111, "-"])
         #Imprimir en el Triplo Asignación "Z" = T1
         linea_triplo+=1
         triplo.append([linea_triplo,elemento.rstrip("+-"), "T1", "="])
