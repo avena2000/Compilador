@@ -18,7 +18,7 @@ def crear_tabla_simbolos():
     lexemas = {}
 
     # Abre el archivo de entrada "codigo.txt" en modo lectura
-    with open("codigos/codigo.txt", "r") as archivo_entrada:
+    with open("optimizacion/codigo_optimizado.txt", "r") as archivo_entrada:
         # Lee el contenido del archivo línea por línea
         for linea in archivo_entrada:
             # Divide la línea en palabras usando espacios como separadores

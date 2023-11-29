@@ -1,5 +1,5 @@
 # Nombre del archivo de entrada y salida
-nombre_archivo_entrada = 'codigos/codigo.txt'
+nombre_archivo_entrada = 'optimizacion/codigo_optimizado.txt'
 nombre_archivo_salida = 'modificaciones/codigo_limpio.txt'
 
 # Palabras clave que queremos buscar en las líneas

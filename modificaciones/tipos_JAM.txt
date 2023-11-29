@@ -1,14 +1,16 @@
 |ENT| = |CAD| ;
 |REAL| = 11011 ;
 |REAL| = Null ;
+|REAL| = Null ;
 11do11 {
   |ENT|-- ;
   |REAL|++ ;
-  |REAL| = |CAD| - |REAL| ;
-} 11while11 ( |REAL| <= |REAL| && |ENT| > 1110011 ) ;
-|CAD| = "Gatito" / Null ;
+  |CAD| = |CAD| - |REAL| ;
+  Null = "azul" ;
+} 11while11 ( |REAL| <= |REAL| && |CAD| > 1110011 ) ;
 11do11 {
   |ENT|-- ;
   |REAL|++ ;
-  |REAL| = |CAD| - |REAL| ;
-} 11while11 ( |REAL| <= |REAL| || |ENT| == 1110011 ) ;
+  |CAD| = |CAD| - |REAL| + Null ;
+  Null = "azul" ;
+} 11while11 ( |REAL| <= |CAD| || |ENT| == 1110011 ) ;

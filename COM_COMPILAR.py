@@ -3,6 +3,8 @@ import time
 
 # Lista de nombres de archivos que deseas ejecutar en orden
 archivos_a_ejecutar = [
+    "COM_OPTIMIZAR.py",
+    "COM_DECLARACIONES.py",
     "COM_SIMBOLOS.py",
     "COM_REMOVE_VAR.py",
     "COM_DICCIONARIO.py",
@@ -33,3 +35,4 @@ for archivo in archivos_a_ejecutar:
 
     except Exception as e:
         print(f"Error al ejecutar {archivo}: {e}")
+    time.sleep(1)

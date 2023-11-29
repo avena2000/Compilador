@@ -1,14 +1,16 @@
 JAM1 = JAM9 ;
 JAM4 = 11011 ;
 JAM6 = JAM15 ;
+JAM6 = JAM15 ;
 11do11 {
   JAM1-- ;
   JAM4++ ;
-  JAM6 = JAM9 - JAM4 ;
-} 11while11 ( JAM4 <= JAM6 && JAM1 > 1110011 ) ;
-JAM8 = "Gatito" / JAM45 ;
+  JAM9 = JAM9 - JAM4 ;
+  JAM10 = "azul" ;
+} 11while11 ( JAM4 <= JAM6 && JAM9 > 1110011 ) ;
 11do11 {
   JAM1-- ;
   JAM4++ ;
-  JAM6 = JAM9 - JAM4 ;
-} 11while11 ( JAM4 <= JAM6 || JAM1 == 1110011 ) ;
+  JAM9 = JAM9 - JAM4 + JAM10 ;
+  JAM10 = "azul" ;
+} 11while11 ( JAM4 <= JAM9 || JAM1 == 1110011 ) ;

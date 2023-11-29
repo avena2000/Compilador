@@ -17,7 +17,7 @@ def reemplazar_elementos_jam():
     tabla_simbolos = cargar_tabla_simbolos()
 
     # Abre el archivo de entrada "codigo_formateado" en modo lectura
-    with open("codigos/codigo.txt", "r") as archivo_entrada:
+    with open("optimizacion/codigo_optimizado.txt", "r") as archivo_entrada:
         # Lee el contenido del archivo línea por línea
         lineas = archivo_entrada.readlines()
 

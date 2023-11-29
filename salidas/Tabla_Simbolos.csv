@@ -1,17 +1,12 @@
 Lexemas,Tipo de Dato
 |ENT|,
 JAM1,|ENT|
-",",
-JAM2,|ENT|
-JAM3,|ENT|
 ;,
 |REAL|,
 JAM4,|REAL|
-JAM5,|REAL|
+",",
 JAM6,|REAL|
 |CAD|,
-JAM7,|CAD|
-JAM8,|CAD|
 JAM9,|CAD|
 =,
 11011,|ENT|
@@ -19,6 +14,8 @@ JAM15,Null
 11do11,
 {,
 -,OPA
+JAM10,Null
+"""azul""",|CAD|
 },
 11while11,
 (,
@@ -27,8 +24,6 @@ JAM15,Null
 >,OPR
 1110011,|ENT|
 ),
-"""Gatito""",|CAD|
-/,OPA
-JAM45,Null
++,OPA
 ||,LOG
 ==,OPR

@@ -1,6 +1,6 @@
-|ENT| JAM1 , JAM2 , JAM3 ;
-|REAL| JAM4 , JAM5 , JAM6 ;
-|CAD| JAM7 , JAM8 , JAM9 ;
+|ENT| JAM1 ;
+|REAL| JAM4 , JAM6 ;
+|CAD| JAM9 ;
 JAM1 = JAM9 ;
 JAM4 = 11011 ;
 JAM6 = JAM15 ;
@@ -8,15 +8,12 @@ JAM6 = JAM15 ;
 11do11 {
   JAM1-- ;
   JAM4++ ;
-  JAM9 = JAM9 - JAM4 + JAM10 ;
+  JAM9 = JAM9 - JAM4 ;
   JAM10 = "azul" ;
-  JAM7 = "Pikachu" ;
 } 11while11 ( JAM4 <= JAM6 && JAM9 > 1110011 ) ;
-JAM8 = "Gatito" / JAM45 ;
 11do11 {
   JAM1-- ;
   JAM4++ ;
   JAM9 = JAM9 - JAM4 + JAM10 ;
   JAM10 = "azul" ;
-  JAM6 = JAM3 - JAM4 ;
 } 11while11 ( JAM4 <= JAM9 || JAM1 == 1110011 ) ;
