@@ -2,10 +2,15 @@ Token Error,Línea,Elemento,Lexema,Descripción
 ERSem1,1,3,JAM9,Incompatibilidad de Tipos |ENT|.
 ERSem2,3,3,JAM15,Variable Indefinida.
 ERSem3,4,3,JAM15,Variable Indefinida.
-ERSem4,8,1,JAM9,Incompatibilidad de Tipos |CAD|.
-ERSem5,9,1,JAM10,Variable Indefinida.
-ERSem6,10,7,1110011,Incompatibilidad de Tipos |CAD|.
-ERSem7,14,7,JAM10,Variable Indefinida.
-ERSem8,14,1,JAM9,Incompatibilidad de Tipos |CAD|.
-ERSem9,15,1,JAM10,Variable Indefinida.
-ERSem10,16,3,JAM9,Incompatibilidad de Tipos |REAL|.
+ERSem4,8,7,JAM10,Variable Indefinida.
+ERSem5,8,1,JAM9,Incompatibilidad de Tipos |CAD|.
+ERSem6,9,1,JAM10,Variable Indefinida.
+ERSem7,10,7,1110011,Incompatibilidad de Tipos |CAD|.
+ERSem8,14,7,JAM10,Variable Indefinida.
+ERSem9,14,1,JAM9,Incompatibilidad de Tipos |CAD|.
+ERSem10,15,1,JAM10,Variable Indefinida.
+ERSem11,16,3,JAM9,Incompatibilidad de Tipos |REAL|.
+ERSem12,20,7,JAM10,Variable Indefinida.
+ERSem13,20,1,JAM9,Incompatibilidad de Tipos |CAD|.
+ERSem14,21,1,JAM10,Variable Indefinida.
+ERSem15,22,3,JAM9,Incompatibilidad de Tipos |REAL|.

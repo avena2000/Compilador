@@ -20,3 +20,11 @@ JAM8 = "Gatito" / JAM45 ;
   JAM10 = "azul" ;
   JAM6 = JAM3 - JAM4 ;
 } 11while11 ( JAM4 <= JAM9 || JAM1 == 1110011 ) ;
+JAM11 = 112311.23 ;
+11do11 {
+  JAM1-- ;
+  JAM4++ ;
+  JAM9 = JAM9 - JAM4 + JAM10 ;
+  JAM10 = "azul" ;
+  JAM6 = JAM3 - JAM4 ;
+} 11while11 ( JAM4 <= JAM9 || JAM1 == 1110011 ) ;

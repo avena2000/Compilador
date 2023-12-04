@@ -35,4 +35,4 @@ for archivo in archivos_a_ejecutar:
 
     except Exception as e:
         print(f"Error al ejecutar {archivo}: {e}")
-    time.sleep(1)
+    # time.sleep(1)

@@ -5,9 +5,15 @@
 11do11 {
   |ENT|-- ;
   |REAL|++ ;
-  |CAD| = |CAD| - |REAL| ;
+  |CAD| = |CAD| - |REAL| + Null ;
   Null = "azul" ;
 } 11while11 ( |REAL| <= |REAL| && |CAD| > 1110011 ) ;
+11do11 {
+  |ENT|-- ;
+  |REAL|++ ;
+  |CAD| = |CAD| - |REAL| + Null ;
+  Null = "azul" ;
+} 11while11 ( |REAL| <= |CAD| || |ENT| == 1110011 ) ;
 11do11 {
   |ENT|-- ;
   |REAL|++ ;

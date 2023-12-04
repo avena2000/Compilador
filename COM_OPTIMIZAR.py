@@ -4,6 +4,22 @@ elementos_encontrados = []
 
 contador_copia= 1
 
+carpeta_a_borrar = 'optimizacion/'
+
+try:
+    archivos_en_carpeta = os.listdir(carpeta_a_borrar)
+    
+    for archivo in archivos_en_carpeta:
+        ruta_completa = os.path.join(carpeta_a_borrar, archivo)
+        os.remove(ruta_completa)
+    
+    print(f'Archivos en la carpeta {carpeta_a_borrar} han sido borrados exitosamente.')
+except FileNotFoundError:
+    print(f'La carpeta {carpeta_a_borrar} no fue encontrada.')
+except Exception as e:
+    print(f'Ocurrió un error al intentar borrar los archivos: {e}')
+
+
 while True:
     if contador_copia == 1:
          # Genera un nuevo nombre de archivo para la copia

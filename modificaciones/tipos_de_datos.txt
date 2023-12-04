@@ -5,9 +5,15 @@
 11do11 {
 |ENT|-- ;
 |REAL|++ ;
-|CAD| = |CAD| OPA |REAL| ;
+|CAD| = |CAD| OPA |REAL| OPA Null ;
 Null = |CAD| ;
 } 11while11 ( |REAL| OPR |REAL| LOG |CAD| OPR |ENT| ) ;
+11do11 {
+|ENT|-- ;
+|REAL|++ ;
+|CAD| = |CAD| OPA |REAL| OPA Null ;
+Null = |CAD| ;
+} 11while11 ( |REAL| OPR |CAD| LOG |ENT| OPR |ENT| ) ;
 11do11 {
 |ENT|-- ;
 |REAL|++ ;
